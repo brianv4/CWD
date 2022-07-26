@@ -1,125 +1,125 @@
-body {
-  font-family: "Poppins", sans-serif;
-  /* font-family: "Ubuntu", sans-serif; */
-}
-
-.jumbotron {
-  padding-top: 6rem; /* mengatur jarak antar foto dan navbar */
-  background-color: #e2edff;
-}
-
-#projects {
-  background-color: #e2edff;
-}
-
-#footer {
-  /* background-color: #2f4f4f;
+            body {
+                font-family: "Poppins", sans-serif;
+                /* font-family: "Ubuntu", sans-serif; */
+            }
+            
+            .jumbotron {
+                padding-top: 6rem;
+                /* mengatur jarak antar foto dan navbar */
+                background-color: #e2edff;
+            }
+            
+            #projects {
+                background-color: #e2edff;
+            }
+            
+            #footer {
+                /* background-color: #2f4f4f;
   color: white; */
-}
-
-section {
-  padding-top: 5rem;
-}
-
-.gallery-img {
-  width: 100%;
-}
-
-#gallery .row > * {
-  padding: 0;
-}
-
-/* My animasi section */
-.animasi-box {
-  position: relative;
-  background-color: #212529;
-  border-radius: 10px;
-  height: 500px;
-  transform-style: preserve-3d;
-}
-
-.animasi-box::before {
-  content: "MY";
-  position: absolute;
-  color: #fff;
-  font-size: 6em;
-  font-weight: bold;
-  font-style: italic;
-  top: 30px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover::before {
-  opacity: 0.2;
-}
-
-.animasi-box::after {
-  content: "ANIMASI";
-  position: absolute;
-  color: #fff;
-  font-size: 4.3em;
-  font-weight: bold;
-  font-style: italic;
-  top: 350px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover::after {
-  opacity: 0.2;
-}
-
-.animasi-name {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  font-size: 2em;
-  opacity: 0;
-  transform: translate3d(0, 0, 50px);
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-name {
-  top: 20px;
-  opacity: 1;
-}
-
-.animasi-detail-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate3d(-50%, 0, 100px);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-detail-button {
-  opacity: 1;
-  bottom: 20px;
-}
-
-.animasi-img {
-  position: absolute;
-  top: 52%;
-  left: 50%;
-  transform: translate3d(-50%, -52%, 80px);
-  max-width: 300px;
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-img {
-  transform: translate(-50%, -52%, 100px) rotate(5deg) scale(1.2);
-}
-
-/* Produk Hover */
-/* .container .card {
+            }
+            
+            section {
+                padding-top: 5rem;
+            }
+            
+            .gallery-img {
+                width: 100%;
+            }
+            
+            #gallery .row>* {
+                padding: 0;
+            }
+            /* My animasi section */
+            
+            .animasi-box {
+                position: relative;
+                background-color: #212529;
+                border-radius: 10px;
+                height: 500px;
+                transform-style: preserve-3d;
+            }
+            
+            .animasi-box::before {
+                content: "MY";
+                position: absolute;
+                color: #fff;
+                font-size: 6em;
+                font-weight: bold;
+                font-style: italic;
+                top: 30px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                opacity: 0;
+                transition: 0.5s;
+            }
+            
+            .animasi-box:hover::before {
+                opacity: 0.2;
+            }
+            
+            .animasi-box::after {
+                content: "ANIMASI";
+                position: absolute;
+                color: #fff;
+                font-size: 4.3em;
+                font-weight: bold;
+                font-style: italic;
+                top: 350px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                opacity: 0;
+                transition: 0.5s;
+            }
+            
+            .animasi-box:hover::after {
+                opacity: 0.2;
+            }
+            
+            .animasi-name {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                color: #fff;
+                text-align: center;
+                font-size: 2em;
+                opacity: 0;
+                transform: translate3d(0, 0, 50px);
+                transition: 0.5s;
+            }
+            
+            .animasi-box:hover .animasi-name {
+                top: 20px;
+                opacity: 1;
+            }
+            
+            .animasi-detail-button {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate3d(-50%, 0, 100px);
+                opacity: 0;
+                transition: 0.5s;
+            }
+            
+            .animasi-box:hover .animasi-detail-button {
+                opacity: 1;
+                bottom: 20px;
+            }
+            
+            .animasi-img {
+                position: absolute;
+                top: 52%;
+                left: 50%;
+                transform: translate3d(-50%, -52%, 80px);
+                max-width: 300px;
+                transition: 0.5s;
+            }
+            
+            .animasi-box:hover .animasi-img {
+                transform: translate(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+            }
+            /* Produk Hover */
+            /* .container .card {
   max-width: 300px;
   height: 215px;
   margin: 30px 10px;
@@ -166,173 +166,177 @@ section {
     left: -2px;
   }
 } */
-/* End Produk Hover */
-
-/* Carousel */
-
-/* Carousel */
-
-.container-card {
-  min-height: 100vh;
-  padding: 20px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  width: 280px;
-  height: 520px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: #fff;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  user-select: none;
-  z-index: 10;
-  overflow: hidden;
-}
-
-.card .backgroundEffect {
-  bottom: 0;
-  height: 0px;
-  width: 100%;
-}
-
-.card:hover {
-  color: #fff;
-  transform: scale(1.025);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
-}
-
-.card:hover .backgroundEffect {
-  bottom: 0;
-  height: 320px;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  background: #1b9ce3;
-  animation: popBackground 0.3s ease-in;
-}
-
-@keyframes popBackground {
-  0% {
-    height: 20px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-  }
-
-  50% {
-    height: 80px;
-    border-top-left-radius: 75%;
-    border-top-right-radius: 75%;
-  }
-
-  75% {
-    height: 160px;
-    border-top-left-radius: 85%;
-    border-top-right-radius: 85%;
-  }
-
-  100% {
-    height: 320px;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-  }
-}
-
-.card .pic {
-  position: relative;
-}
-
-.card .pic img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-}
-
-.card .date {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 70px;
-  background-color: #1b9ce3;
-  color: white;
-  position: absolute;
-  bottom: 0px;
-  transition: all ease;
-}
-
-.card .date .day {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.card .date .month,
-.card .date .year {
-  font-size: 10px;
-}
-
-.card .text-muted {
-  font-size: 12px;
-}
-
-.card:hover .text-muted {
-  color: #fff !important;
-}
-
-.card .content {
-  padding: 0 20px;
-}
-
-.card .content .btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 10px;
-  background-color: #1b9ce3;
-  border-radius: 25px;
-  font-size: 12px;
-  border: none;
-}
-
-.card:hover .content .btn {
-  background: #fff;
-  color: #1b9ce3;
-  box-shadow: #0000001a 0px 3px 5px;
-}
-
-.card .content .btn .fas {
-  font-size: 10px;
-  padding-left: 5px;
-}
-
-.card .content .foot .admin {
-  color: #1b9ce3;
-  font-size: 12px;
-}
-
-.card:hover .content .foot .admin {
-  color: #fff;
-}
-
-.card .content .foot .icon {
-  font-size: 12px;
-}
-
-/* modal */
-$quantity-btn-color: #95d7fc;
-.product {
-  width: 30%;
-  margin: 30px;
-}
-.form-group {
-  width: 30%;
-  margin: 30px;
-  .glyphicon {
-    color: $quantity-btn-color;
-  }
-}
-
-/* Carousel */
+            /* End Produk Hover */
+            /* Carousel */
+            /* Carousel */
+            
+            .container-card {
+                min-height: 100vh;
+                padding: 20px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .card {
+                width: 280px;
+                height: 520px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                background: #fff;
+                transition: all 0.5s ease;
+                cursor: pointer;
+                user-select: none;
+                z-index: 10;
+                overflow: hidden;
+            }
+            
+            .card .backgroundEffect {
+                bottom: 0;
+                height: 0px;
+                width: 100%;
+            }
+            
+            .card:hover {
+                color: #fff;
+                transform: scale(1.025);
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+            }
+            
+            .card:hover .backgroundEffect {
+                bottom: 0;
+                height: 320px;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                background: #1b9ce3;
+                animation: popBackground 0.3s ease-in;
+            }
+            
+            @keyframes popBackground {
+                0% {
+                    height: 20px;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                }
+                50% {
+                    height: 80px;
+                    border-top-left-radius: 75%;
+                    border-top-right-radius: 75%;
+                }
+                75% {
+                    height: 160px;
+                    border-top-left-radius: 85%;
+                    border-top-right-radius: 85%;
+                }
+                100% {
+                    height: 320px;
+                    border-top-left-radius: 100%;
+                    border-top-right-radius: 100%;
+                }
+            }
+            
+            .card .pic {
+                position: relative;
+            }
+            
+            .card .pic img {
+                width: 100%;
+                height: 280px;
+                object-fit: cover;
+            }
+            
+            .card .date {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 70px;
+                background-color: #1b9ce3;
+                color: white;
+                position: absolute;
+                bottom: 0px;
+                transition: all ease;
+            }
+            
+            .card .date .day {
+                font-size: 14px;
+                font-weight: 600;
+            }
+            
+            .card .date .month,
+            .card .date .year {
+                font-size: 10px;
+            }
+            
+            .card .text-muted {
+                font-size: 12px;
+            }
+            
+            .card:hover .text-muted {
+                color: #fff !important;
+            }
+            
+            .card .content {
+                padding: 0 20px;
+            }
+            
+            .card .content .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5px 10px;
+                background-color: #1b9ce3;
+                border-radius: 25px;
+                font-size: 12px;
+                border: none;
+            }
+            
+            .card:hover .content .btn {
+                background: #fff;
+                color: #1b9ce3;
+                box-shadow: #0000001a 0px 3px 5px;
+            }
+            
+            .card .content .btn .fas {
+                font-size: 10px;
+                padding-left: 5px;
+            }
+            
+            .card .content .foot .admin {
+                color: #1b9ce3;
+                font-size: 12px;
+            }
+            
+            .card:hover .content .foot .admin {
+                color: #fff;
+            }
+            
+            .card .content .foot .icon {
+                font-size: 12px;
+            }
+            /* modal */
+            
+            quantity-btn-color: #95d7fc;
+            .product {
+                width: 30%;
+                margin: 30px;
+            }
+            
+            .form-group {
+                width: 30%;
+                margin: 30px;
+            }
+            
+            .glyphicon {
+                color: quantity-btn-color;
+            }
+            /* Carousel */
+            /*Penutup*/
+            
+            .img .penutup {
+                position: relative;
+                z-index: 1;
+                top: -70px;
+                width: 100%;
+            }
